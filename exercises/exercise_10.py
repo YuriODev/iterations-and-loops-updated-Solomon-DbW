@@ -1,10 +1,5 @@
-# Prompt the user to enter the number of pounds.
 pounds = int(input())
+CONV = 0.453
 
-# Initialize the kilograms variable.
-kilograms = 0
-
-# Loop through the range of pounds and print the equivalent kilograms.
 for i in range(1, pounds + 1):
-    kilograms += 0.45
-    print(f"{i} {kilograms:.2f}")
+    print(f"{i} {i*CONV:.2f}")
